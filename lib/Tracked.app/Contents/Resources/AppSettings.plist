@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppPathAsFirstArg</key>
+	<false/>
+	<key>Creator</key>
+	<string>Platypus-4.5</string>
+	<key>Droppable</key>
+	<false/>
+	<key>InterpreterParams</key>
+	<array/>
+	<key>OutputType</key>
+	<string>Text Window</string>
+	<key>RemainRunningAfterCompletion</key>
+	<true/>
+	<key>RequiresAdminPrivileges</key>
+	<true/>
+	<key>ScriptInterpreter</key>
+	<string>/usr/bin/ruby</string>
+	<key>Secure</key>
+	<true/>
+	<key>TextBackground</key>
+	<string>#ffffff</string>
+	<key>TextEncoding</key>
+	<integer>4</integer>
+	<key>TextFont</key>
+	<string>Monaco</string>
+	<key>TextForeground</key>
+	<string>#000000</string>
+	<key>TextSettings</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKIHCFUkbnVsbE8RBtAjIHNldHVwIHBjYXAgaWYgaXQgaXNuJ3QgYWxyZWFkeSBp
+	bnN0YWxsZWQKIyBgcnVieSAvcGNhcC9leHRjb25mLnJiYAojIGBjZCAmJiAvcGNhcC9t
+	YWtlYAojIGBjZCAmJiAvcGNhcC9tYWtlIGluc3RhbGxgCgojIHRoaXMgbGluZSBpbXBv
+	cnRzIHRoZSBsaWJwY2FwIHJ1YnkgYmluZGluZ3MKYmVnaW4KCnJlcXVpcmUgJ3BjYXBs
+	ZXQnCnJlcXVpcmUgJ3J1YnlnZW1zJwpyZXF1aXJlICdhY3RpdmVfcmVjb3JkJwpyZXF1
+	aXJlICd5YW1sJwpyZXF1aXJlICcuLi9hcHAvbW9kZWxzL3NpdGUucmInCnJlcXVpcmUg
+	J3B1c2hlcicKCnJlc2N1ZSBTdGFuZGFyZEVycm9yID0+IGJhbmcKICAKICBwdXRzICJF
+	cnJvciB3aXRoIHRoZSByZXF1aXJlcy4uICN7YmFuZ30iCiAgCmVuZAoKYmVnaW4KClB1
+	c2hlci5hcHBfaWQgPSAnNjk3NicKUHVzaGVyLmtleSA9ICc1YTNkYmQ5OTMxZjkzZjFi
+	NDUwYScKUHVzaGVyLnNlY3JldCA9ICc2YzQxMzc2NjM1MWFmNmYzZDQyYicKCkFjdGl2
+	ZVJlY29yZDo6QmFzZS5lc3RhYmxpc2hfY29ubmVjdGlvbigKICA6YWRhcHRlciAgPT4g
+	J215c3FsMicsCiAgOmRhdGFiYXNlID0+ICd0cmFrZF9kZXZlbG9wbWVudCcsCiAgOnVz
+	ZXJuYW1lID0+ICdyb290JywKICA6cGFzc3dvcmQgPT4gJycsCiAgOmhvc3QgICAgID0+
+	ICdsb2NhbGhvc3QnKQoKcmVzY3VlIFN0YW5kYXJkRXJyb3IgPT4gYmFuZwogIAogIHB1
+	dHMgIkVycm9yIHdpdGggdGhlIGRhdGFiYXNlIGNvbm5lY3Rpb24uLiAje2Jhbmd9Igog
+	IAplbmQKCmJlZ2luCgpwdXRzICJTdGFydGluZyBUcmFja2VkLi4uIgoKIyBjcmVhdGUg
+	YSBzbmlmZmVyIHRoYXQgZ3JhYnMgdGhlIGZpcnN0IDE1MDAgYnl0ZXMgb2YgZWFjaCBw
+	YWNrZXQKJG5ldHdvcmsgPSBQY2FwbGV0Lm5ldygnLXMgMTUwMCAtaSBlbjEnKQoKIyBj
+	cmVhdGUgYSBmaWx0ZXIgdGhhdCB1c2VzIG91ciBxdWVyeSBzdHJpbmcgYW5kIHRoZSBz
+	bmlmZmVyIHdlIGp1c3QgbWFkZQokZmlsdGVyID0gUGNhcDo6RmlsdGVyLm5ldygndGNw
+	IGFuZCBkc3QgcG9ydCA4MCcsICRuZXR3b3JrLmNhcHR1cmUpCgojIGFkZCB0aGUgbmV3
+	IGZpbHRlciB0byB0aGUgc25pZmZlcgokbmV0d29yay5hZGRfZmlsdGVyKCRmaWx0ZXIp
+	CgojIGl0ZXJhdGUgb3ZlciBldmVyeSBwYWNrZXQgdGhhdCBnb2VzIHRocm91Z2ggdGhl
+	IHNuaWZmZXIKZm9yIHAgaW4gJG5ldHdvcmsKICAjIGlmIHRoZSBwYWNrZXQgbWF0Y2hl
+	cyB0aGUgZmlsdGVyIGFuZCB0aGUgcmVnZXhwLi4uCiAgaWYgJGZpbHRlciA9fiBwIGFu
+	ZCBwLnRjcF9kYXRhID1+IC9HRVQoLiopSFRUUC4qSG9zdDooW15cclxuXSopL3htCiAg
+	ICAjIHByaW50IHRoZSBsb2NhbCBJUCBvZiB0aGUgcmVxdWVzdG9yIGFuZCB0aGUgcmVx
+	dWVzdGVkIFVSTAogICAgcHV0cyAiI3twLnNyY30gLSBodHRwOi8vI3skMi5zdHJpcH0j
+	eyQxLnN0cmlwfSIKICAgIHNpdGUgPSBTaXRlLmZpbmRfYnlfbmFtZSgiI3skMi5zdHJp
+	cH0iKQogICAgaWYgc2l0ZQogICAgICBzaXRlLmNvdW50ID0gKHNpdGUuY291bnQudG9f
+	aSArIDEpCiAgICBlbHNlCiAgICAgIHNpdGUgPSBTaXRlLm5ldyg6bmFtZSA9PiAiI3sk
+	Mi5zdHJpcH0iLCA6dXJsID0+ICJodHRwOi8vI3skMi5zdHJpcH0jeyQxLnN0cmlwfSIs
+	IDpjb3VudCA9PiAxKQogICAgZW5kCiAgICBzaXRlLnNhdmUhCiAgZW5kCmVuZAoKcmVz
+	Y3VlIFN0YW5kYXJkRXJyb3IgPT4gYmFuZwogIAogIHB1dHMgIkVycm9yIHdpdGggdGhl
+	IHNuaWZmZXIuLiAje2Jhbmd9IgogIAplbmQKXxAPTlNLZXllZEFyY2hpdmVy0QsMVHJv
+	b3SAAQAIABEAGgAjAC0AMgA3ADoAQAcUByYHKQcuAAAAAAAAAgEAAAAAAAAADQAAAAAA
+	AAAAAAAAAAAABzA=
+	</data>
+	<key>TextSize</key>
+	<real>10</real>
+</dict>
+</plist>

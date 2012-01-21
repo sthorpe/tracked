@@ -1,10 +1,25 @@
+# setup pcap if it isn't already installed
+# `ruby /pcap/extconf.rb`
+# `cd && /pcap/make`
+# `cd && /pcap/make install`
+
 # this line imports the libpcap ruby bindings
+begin
+
 require 'pcaplet'
 require 'rubygems'
 require 'active_record'
 require 'yaml'
 require '../app/models/site.rb'
 require 'pusher'
+
+rescue StandardError => bang
+  
+  puts "Error with the requires.. #{bang}"
+  
+end
+
+begin
 
 Pusher.app_id = '6976'
 Pusher.key = '5a3dbd9931f93f1b450a'
@@ -17,6 +32,15 @@ ActiveRecord::Base.establish_connection(
   :password => '',
   :host     => 'localhost')
 
+rescue StandardError => bang
+  
+  puts "Error with the database connection.. #{bang}"
+  
+end
+
+begin
+
+puts "Starting Tracked..."
 
 # create a sniffer that grabs the first 1500 bytes of each packet
 $network = Pcaplet.new('-s 1500 -i en1')
@@ -41,4 +65,10 @@ for p in $network
     end
     site.save!
   end
+end
+
+rescue StandardError => bang
+  
+  puts "Error with the sniffer.. #{bang}"
+  
 end

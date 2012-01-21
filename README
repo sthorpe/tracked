@@ -11,6 +11,10 @@ INSTALL
  - make
  - sudo make install
 
+** My mac exec
+
+ - Tracked.app ** it has bugs....
+
 ~ Make sure you first run that database setup.
  
  - bundle exec rake db:create
