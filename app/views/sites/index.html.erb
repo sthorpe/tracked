@@ -1,0 +1,21 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://js.pusherapp.com/1.8/pusher.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var pusher = new Pusher('5a3dbd9931f93f1b450a');
+  var channel = pusher.subscribe('traffk');
+  channel.bind('update_sites', function(data) {
+    $.ajax({
+          method: 'get',
+          url : '/sites/update_sites',
+          dataType : 'text',
+          success: function (text) { $('#newsites').html(text); }
+       });
+  });
+</script>
+
+<div id="newsites">
+<% @sites.each do |site| %>
+  Site: <%= site.name %> <br />
+  <%= site.count.to_i %> visits <br />
+<% end %>
+</div>
